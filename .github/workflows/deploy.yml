@@ -21,11 +21,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node (with automatic caching)
+      - name: Set up Node.js (with strict version pinning)
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
-          cache: 'npm'  # <-- Built-in caching for node_modules
+          node-version: 20.12.2  # Pinned exact version
+          cache: 'npm'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
