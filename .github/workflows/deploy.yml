@@ -32,8 +32,10 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+   
       - name: Debug package-lock.json hash
-        run: echo "package-lock.json hash: $(shasum -a 256 package-lock.json)"
+        run: |
+          echo "package-lock.json hash: $(sha256sum package-lock.json | awk '{print $1}')"
 
 
 
