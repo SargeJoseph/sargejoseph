@@ -61,8 +61,8 @@ const CONFIG = {
     x: 'SargeJos3ph',
     //mastodon: 'arifszn@mastodon.social',
     //researchGate: '',
-    //facebook: '',
-    //instagram: '',
+    facebook: 'sargejos3ph',
+    instagram: 'sargejos3ph',
     //reddit: '',
     //threads: '',
     youtube: 'sargejos3ph', // example: 'pewdiepie'
