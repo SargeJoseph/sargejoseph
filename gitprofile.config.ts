@@ -159,11 +159,11 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'SargeJoseph', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    username: 'sargejoseph', // to hide blog section, keep it empty
+    limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-WCPJJP6HE8', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
