@@ -102,7 +102,7 @@ const CONFIG = {
     {
       company: 'Toilemaitre',
       position: 'Redacted',
-      from: 'December 2008',
+      from: 'December 1999',
       to: 'Present',
       companyLink: 'https://git.toilemaitre.com',
     },
@@ -129,12 +129,7 @@ const CONFIG = {
       from: '2015',
       to: '2019',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+
   ],
   publications: [
     {
