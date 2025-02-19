@@ -58,7 +58,7 @@ const CONFIG = {
   },
   social: {
     //linkedin: 'ariful-alam',
-    x: 'SargeJos3ph',
+    x: 'SargeJoseph_fan',
     //mastodon: 'arifszn@mastodon.social',
     //researchGate: '',
     //facebook: '',
@@ -70,7 +70,7 @@ const CONFIG = {
     //dribbble: '',
     //behance: '',
     //medium: 'arifszn',
-    dev: 'sargejos3ph',
+    dev: 'sargejoseph',
     //stackoverflow: '', // example: '1/jeff-atwood'
     //skype: '',
     //telegram: '',
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://git.toilemaitre.com', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -90,13 +90,12 @@ const CONFIG = {
     //'Node.js',
     //'Nest.js',
     //'MySQL',
-    'PostgreSQL',
+    //'PostgreSQL',
     'Git',
     'Docker',
     //'PHPUnit',
     //'CSS',
-    //'Antd
-    'TypeScript',
+    //'Antd',
     //'Tailwind',
   ],
   experiences: [
@@ -105,7 +104,7 @@ const CONFIG = {
       position: 'Redacted',
       from: 'December 2008',
       to: 'Present',
-      //companyLink: 'https:/git.toilemaitre.com',
+      //companyLink: 'https://example.com',
     },
     {
       //company: 'Company Name',
@@ -117,7 +116,7 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Redacted',
+      name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
@@ -125,42 +124,42 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Redacted,
+      institution: 'Institution Name',
       degree: 'Degree',
-      from: '1999',
-      to: '2001',
+      from: '2015',
+      to: '2019',
     },
     {
- //     institution: 'Institution Name',
-   //   degree: 'Degree',
-//      from: '2012',
-//      to: '2014',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
     },
   ],
   publications: [
     {
-      title: 'Redacted',
+      title: 'Publication Title',
       conferenceName: '',
       journalName: 'Journal Name',
-      authors: 'Sarge Joseph',
-      link: 'https://git.toilemaitre.com',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
-//      title: 'Publication Title',
- //     conferenceName: 'Conference Name',
-//      journalName: '',
- //     authors: 'John Doe, Jane Smith',
-//      link: 'https://example.com',
-//      description:
-//        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'sargejos3ph', // to hide blog section, keep it empty
+    username: 'sargejoseph', // to hide blog section, keep it empty
     limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
