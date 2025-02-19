@@ -65,7 +65,7 @@ const CONFIG = {
     //instagram: '',
     //reddit: '',
     //threads: '',
-    youtube: 'SargeJoseph', // example: 'pewdiepie'
+    youtube: 'sargejos3ph', // example: 'pewdiepie'
     //udemy: '',
     //dribbble: '',
     //behance: '',
