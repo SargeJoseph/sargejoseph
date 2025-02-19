@@ -58,7 +58,7 @@ const CONFIG = {
   },
   social: {
     //linkedin: 'ariful-alam',
-    x: 'SargeJos3phn',
+    x: 'SargeJos3ph',
     //mastodon: 'arifszn@mastodon.social',
     //researchGate: '',
     //facebook: '',
@@ -104,7 +104,7 @@ const CONFIG = {
       position: 'Redacted',
       from: 'December 2008',
       to: 'Present',
-      //companyLink: 'https://example.com',
+      companyLink: 'https://git.toilemaitre.com',
     },
     {
       //company: 'Company Name',
