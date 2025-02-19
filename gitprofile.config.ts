@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 20, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Project YY',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://git.toilemaitre.com',
         },
         {
-          title: 'Project Name',
+          title: 'Project ZZ',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://git.toilemaitre.com',
         },
       ],
     },
@@ -57,61 +57,61 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    //linkedin: 'ariful-alam',
+    x: 'SargeJoseph_fan',
+    //mastodon: 'arifszn@mastodon.social',
+    //researchGate: '',
+    //facebook: '',
+    //instagram: '',
+    //reddit: '',
+    //threads: '',
+    youtube: 'SargeJoseph', // example: 'pewdiepie'
+    //udemy: '',
+    //dribbble: '',
+    //behance: '',
+    //medium: 'arifszn',
+    dev: 'sargejoseph',
+    //stackoverflow: '', // example: '1/jeff-atwood'
+    //skype: '',
+    //telegram: '',
+    website: 'https://git.toilemaitre.com',
+    //phone: '',
+    email: 'git@toilemaitre.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    //'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    //'React.js',
+    //'Node.js',
+    //'Nest.js',
+    //'MySQL',
+    //'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    //'PHPUnit',
+    //'CSS',
+    //'Antd',
+    //'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Redacted',
+      position: 'Redacted',
+      from: 'December 2008',
       to: 'Present',
-      companyLink: 'https://example.com',
+      //companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      //company: 'Company Name',
+      //position: 'Position',
+      //from: 'July 2019',
+      //to: 'August 2021',
+      //companyLink: 'https://example.com',
     },
   ],
   certifications: [
@@ -159,7 +159,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'SargeJoseph', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +171,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'Night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -182,7 +182,7 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
+    displayAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -234,11 +234,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+ // footer: `Made with <a 
+   //   class="text-primary" href="https://github.com/arifszn/gitprofile"
+    //  target="_blank"
+   //   rel="noreferrer"
+  //  >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
