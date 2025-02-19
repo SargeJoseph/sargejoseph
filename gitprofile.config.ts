@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Project YY',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://git.toilemaitre.com',
@@ -43,7 +43,7 @@ const CONFIG = {
         {
           title: 'Project ZZ',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://git.toilemaitre.com',
@@ -89,8 +89,8 @@ const CONFIG = {
     'TypeScript',
     //'Node.js',
     //'Nest.js',
-    //'MySQL',
-    //'PostgreSQL',
+    'MySQL',
+    'PostgreSQL',
     'Git',
     'Docker',
     //'PHPUnit',
@@ -100,7 +100,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Redacted',
+      company: 'Toilemaitre',
       position: 'Redacted',
       from: 'December 2008',
       to: 'Present',
