@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['', ''], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -58,7 +58,7 @@ const CONFIG = {
   },
   social: {
     //linkedin: 'ariful-alam',
-    x: 'SargeJoseph_fan',
+    x: 'SargeJos3phn',
     //mastodon: 'arifszn@mastodon.social',
     //researchGate: '',
     //facebook: '',
@@ -70,7 +70,7 @@ const CONFIG = {
     //dribbble: '',
     //behance: '',
     //medium: 'arifszn',
-    dev: 'sargejoseph',
+    dev: 'sargejos3ph',
     //stackoverflow: '', // example: '1/jeff-atwood'
     //skype: '',
     //telegram: '',
@@ -80,13 +80,13 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://git.toilemaitre.com', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
     //'Laravel',
     'JavaScript',
-    //'React.js',
+    'TypeScript',
     //'Node.js',
     //'Nest.js',
     //'MySQL',
@@ -118,8 +118,8 @@ const CONFIG = {
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      year: 'March 2000',
+      link: 'https://git.toilemaitre.com',
     },
   ],
   educations: [
@@ -159,7 +159,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'sargejoseph', // to hide blog section, keep it empty
+    username: 'sargejos3ph', // to hide blog section, keep it empty
     limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
